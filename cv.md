@@ -21,22 +21,22 @@ I chose the frontend direction because of the huge functionality and variability
 
 ### **My Skills**
 
-*JavaScript Basics 1
-*HTML5 2
-*CCS3 3
-*Java Basics 4
-*C++ Basics 5
-*MySQL Basics 6
-*PHP Basics 7
+1. JavaScript Basics 1
+2. HTML5 2
+3. CCS3 3
+4. Java Basics 4
+5. C++ Basics 5
+6. MySQL Basics 6
+7. PHP Basics 7
 
 _Frame_
 
-*Bootstrap4 1
-*JQuery 2
-*Tools 3
-*Git, GitHub 4
-*PHPStorm, Intellij IDEA, Visual Studio, VS Code, phpMyAdmin 5
-*Figma Basics 6
+1. Bootstrap4 1
+2. JQuery 2
+3. Tools 3
+4. Git, GitHub 4
+5. PHPStorm, Intellij IDEA, Visual Studio, VS Code, phpMyAdmin 5
+6. Figma Basics 6
 
 ========================
 
@@ -108,10 +108,12 @@ return -1;
 
 ###**Courses**
 
-*RS-school Stage 0 1
+*RS-school Stage0 1
 
 ###**Languages**
 
 +English B1 1
+
 +Belarusian Native 2
+
 +Russian Native 3
