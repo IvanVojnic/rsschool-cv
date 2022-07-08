@@ -16,7 +16,7 @@
 I am a third-year student of BSU. I studied at the Faculty of Applied Mathematics and Computer Science full-time on a budget. In high school, I had got acquainted with programming and started studying  the Java programming language. In my first year at university, I have learned C++, OOP using this language, and also engaged in graphic development while studying WinAPI. In the middle of the first year, I decided to study a new technology for myself and chose the front-end direction. Using resources such as javascript.ru , w3School and video tutorials independently studied HTML, CSS and JavaScript. At the beginning of my second year at university, I started working on my first commercial project. Using learned technologies, I began the development of an online store, additionally studied PHP and MySQL for backend development, completed the work, successfully handing over the project to the customer. In my second year at university, I studied Java, algorithms and data structures using Java, moreover, operating systems using C++. In the middle of the second year, I set out to become a qualified frontend developer and create my own application. To do this, I started studying the React Native framework, which allows me to write cross-platform applications.
 I chose the frontend direction because of the huge functionality and variability of development. This means that there is an opportunity to develop a huge number of different projects in different areas. With high motivation and diligence, I believe that I can achieve my goals.
 
-====
+*********
 ### **My Skills**
 
 1. JavaScript Basics 1
@@ -35,7 +35,7 @@ _Frame_
 4. Git, GitHub 4
 5. PHPStorm, Intellij IDEA, Visual Studio, VS Code, phpMyAdmin 5
 6. Figma Basics 6
-====
+*********
 ###**Code Example**
 
 > Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
@@ -99,11 +99,14 @@ return nums[middleInd].key;
 return -1;
 }
 ```
-====
+
+*********
+
 ###**Courses**
 
 *RS-school Stage0 1
-====
+
+*********
 ###**Languages**
 
 +English B1 1
