@@ -1,7 +1,8 @@
 # Ivan Voynich
 
 ## **Junior frontend developer**
-====
+
+*********
 
 ### **Contact information**
 
