@@ -1,5 +1,5 @@
 #Ivan Voynich
-====
+
 ## **Junior frontend developer**
 ====
 
@@ -10,7 +10,9 @@
 **e-mail:** ivojnic44@gmail.com
 
 **telegram:** @vojnicMe
-====
+
+*********
+
 ### **About myself**
 
 I am a third-year student of BSU. I studied at the Faculty of Applied Mathematics and Computer Science full-time on a budget. In high school, I had got acquainted with programming and started studying  the Java programming language. In my first year at university, I have learned C++, OOP using this language, and also engaged in graphic development while studying WinAPI. In the middle of the first year, I decided to study a new technology for myself and chose the front-end direction. Using resources such as javascript.ru , w3School and video tutorials independently studied HTML, CSS and JavaScript. At the beginning of my second year at university, I started working on my first commercial project. Using learned technologies, I began the development of an online store, additionally studied PHP and MySQL for backend development, completed the work, successfully handing over the project to the customer. In my second year at university, I studied Java, algorithms and data structures using Java, moreover, operating systems using C++. In the middle of the second year, I set out to become a qualified frontend developer and create my own application. To do this, I started studying the React Native framework, which allows me to write cross-platform applications.
@@ -36,8 +38,8 @@ _Frame_
 5. PHPStorm, Intellij IDEA, Visual Studio, VS Code, phpMyAdmin 5
 6. Figma Basics 6
 *********
-###**Code Example**
 
+###**Code Example**
 > Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
 You can return the answer in any order.
