@@ -107,13 +107,26 @@ return -1;
 
 ### **Courses**
 
-*RS-school Stage0 1
+* RS-school Stage0 1
+
+*********
+### **My Projects**
+Create a website catalog with following tools:
++ HTML5
++ CSS3 & Bootstrap4
++ JavaScript & JQuery
++ PHP
++ MySQL
+
+project: [SKRBearing][https://skrbearing.by/]
+
+projects code: [GitSKRBearing][https://github.com/IvanVojnic/SKRBEARING]
 
 *********
 ### **Languages**
 
-+English B1 1
++ English B1 1
 
-+Belarusian Native 2
++ Belarusian Native 2
 
-+Russian Native 3
++ Russian Native 3
