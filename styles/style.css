@@ -57,6 +57,21 @@ header a{
     font-size: 1.2rem;
 }
 
+.navList{
+    overflow: hidden;
+    position: relative;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.myLinksToNav{
+    display: flex;
+}
+
+.navIcon img{
+    display: none;
+}
+
 header a:hover{
     text-decoration: none;
     color: #ffffff;
@@ -212,6 +227,10 @@ footer{
     animation: animIconSkills 5s infinite;
 }
 
+.skillsBox ol li{
+    margin-bottom: 25px;
+}
+
 .wrapperProject{
     position: relative;
     padding: 0;
@@ -236,8 +255,12 @@ footer{
 
 .projectInfoWrapper{
     position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
     top: 0%;
-    padding: 150px 50px;
+    padding: 2rem;
     color: #ffffff;
 }
 
@@ -286,6 +309,10 @@ footer{
     background-image: linear-gradient(to bottom left, var(--viol), var(--myRed));
 }
 
+.projectLinkWrapper{
+    flex-direction: column;
+}
+
 .education{
     background-image: linear-gradient(to bottom left, var(--myRed), var(--viol));
 }
@@ -324,6 +351,15 @@ footer{
 
 .languagesList{
     list-style-type: none;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    margin-bottom: 4rem;
+}
+
+.languagesList li span{
+    padding: 0;
+    margin: 0;
+    height: 1rem;
 }
 
 .myCode{
@@ -387,5 +423,74 @@ footer{
 
 .myFooter ul li a:hover{
     text-decoration: none;
-
 }
+
+.footerList li{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media (max-width: 1000px) {
+    .navList{
+        justify-content: end;
+    }
+    .navIcon img{
+        display: flex;
+        width: 40px;
+    }
+    .myLinksToNav{
+        display: none;
+    }
+    .mobileNavList{
+        position: relative;
+        flex-direction: column;
+    }
+    .mobileNavList .myLinksToNav{
+        display: flex;
+    }
+    .mobileNavList .navIcon{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .projectLinkWrapper{
+        flex-direction: row;
+    }
+    .projectLinkWrapper a{
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 830px){
+    .projectInfoWrapper h2{
+        margin-bottom: 10px;
+    }
+    .projectInfoWrapper h4{
+        margin-bottom: 0px;
+    }
+    .projectInfoWrapper p{
+        font-size: 1rem;
+    }
+    .projectLinks{
+        font-size: 16px;
+        font-weight: normal;
+        padding: 6px;
+    }
+}
+
+@media (max-width: 700px){
+    .projectInfoWrapper p{
+        display: none;
+    }
+    .projectInfoWrapper h4{
+        margin-bottom: 20px;
+    }
+    .codeWrapper{
+        overflow-x: visible;
+    }
+}
+
+
