@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>CV</title>
+        <link rel="stylesheet" href="styles/bootstrap/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="styles/bootstrap/bootstrap.css">
+        <link rel="stylesheet" href="styles/bootstrap/bootstrap-grid.css">
+        <link rel="stylesheet" href="styles/bootstrap/bootstrap-grid.css.map">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;500&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body class="container-fluid d-flex flex-column justify-content-between align-items-center">
+        <header class="d-flex col-12 myHeader">
+            <nav class="navbar d-flex col-12 justify-content-center">
+                <ul class="navbar-nav d-flex col-8 navList" id="navListID">
+                    <li class="myLinksToNav nav-item"><a href="#aboutMeId" class="navLink">About me</a></li>
+                    <li class="myLinksToNav nav-item"><a href="#skillsId" class="navLink">Skills</a></li>
+                    <li class="myLinksToNav nav-item"><a href="#projectId" class="navLink">Projects</a></li>
+                    <li class="myLinksToNav nav-item"><a href="#experienceId" class="navLink">Experience</a></li>
+                    <li class="myLinksToNav nav-item"><a href="#educationId" class="navLink">Education</a></li>
+                    <li class="myLinksToNav nav-item"><a href="#languagesId" class="navLink">Languages</a></li>
+                    <li class="myLinksToNav nav-item"><a href="#contactsId" class="navLink">Contacts</a></li>
+                    <li class="navIcon nav-item" onclick="openNavBar()"><img src="assets/icons/icons8-меню.svg"></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="d-flex flex-column col-12 justify-content-between align-items-center mainBlock">
+            <section class="visitCard d-flex col-10 flex-row flex-wrap align-items-center justify-content-between" id="aboutMeId">
+                <div class="imgBox d-flex col-lg-4 col-md-8">
+                    <img src="assets/img/IMG_2308.JPG" alt="myPhoto" class="myPhoto">
+                    <div class="animCircle circle1"></div>
+                    <div class="animCircle circle2"></div>
+                </div>
+                <div class="visitCardInfoBox d-flex flex-column col-lg-7 col-md-12">
+                    <div class="titleCardBox">
+                        <h2 class="tittleCard">Ivan Voynich</h2>
+                        <h1>Front-End Developer</h1>
+                    </div>
+                    <div class="infoCard">
+                        <p>
+                            I am a Junior Front End Developer with IT project management experience. I am passionate about good user experience and accessibility.
+                        </p>
+                        <p>
+                            I’m looking for collaboration in non-profit / commercial projects in Education and Science.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="skillsBox d-flex flex-column justify-content-center align-items-center col-10" id="skillsId">
+                <h2 class="tittleCard">My Skills</h2>
+                <ol class="d-flex col-12 flex-wrap justify-content-between">
+                    <li class="d-flex col-lg-4 col-md-6 col-12 flex-column justify-content-start align-items-center">
+                        <h4 class="skillsTitles">Languages:</h4>
+                        <ul class="mySkillsLists">
+                            <li class="skillsListsItem"><span>JavaScript</span><img src="assets/icons/icons8-javascript.svg"></li>
+                            <li class="skillsListsItem"><span>HTML5</span><img src="assets/icons/icons8-html-5.svg"></li>
+                            <li class="skillsListsItem"><span>CSS3</span><img src="assets/icons/icons8-css3.svg"></li>
+                            <li class="skillsListsItem"><span>Java</span><img src="assets/icons/icons8-логотип-java-coffee-cup.svg"></li>
+                            <li class="skillsListsItem"><span>C++</span><img src="assets/icons/icons8-c++.svg"></li>
+                            <li class="skillsListsItem"><span>MySQL</span><img src="assets/icons/icons8-логотип-mysql.svg"></li>
+                            <li class="skillsListsItem"><span>PHP</span><img src="assets/icons/icons8-php-48.png"></li>
+                        </ul>
+                    </li>
+                    <li class="d-flex col-lg-4 col-md-6 col-12 flex-column justify-content-start align-items-center">
+                        <h4 class="skillsTitles">Frameworks:</h4>
+                        <ul class="mySkillsLists">
+                            <li class="skillsListsItem"><span>JQuery</span></li>
+                            <li class="skillsListsItem"><span>Bootstrap 4</span><img src="assets/icons/icons8-bootstrap.svg"></li>
+                        </ul>
+                    </li>
+                    <li class="d-flex col-lg-4 col-md-6 col-12 flex-column justify-content-start align-items-center">
+                        <h4 class="skillsTitles">Tools:</h4>
+                        <ul class="mySkillsLists">
+                            <li class="skillsListsItem"><span>Git, GitHub</span><img src="assets/icons/icons8-github.svg"></li>
+                            <li class="skillsListsItem"><span>PHPStorm, VS Code</span><img src="assets/icons/icons8-visual-studio-code-2019.svg"></li>
+                            <li class="skillsListsItem"><span>phpMyAdmin</span></li>
+                            <li class="skillsListsItem"><span>Figma</span><img src="assets/icons/icons8-figma.svg"></li>
+                        </ul>
+                    </li>
+                </ol>
+            </section>
+            <section class="projectsSection d-flex flex-column col-10 justify-content-center align-items-center" id="projectId">
+                <div class="wrapperProject col-12">
+                    <img src="/assets/img/image_2022-07-12_16-15-20.png" alt="projectsPhoto" class="projectImg">
+                    <div class="projectInfoWrapper">
+                        <h2 class="tittleCard">My Project</h2>
+                        <div class="projectDescriptionBox">
+                            <h4>WEBSITE</h4>
+                            <p>The website is a catalog for the sale of the product. The site has the possibility of complex search and filtering, sending a letter to the administrator's email. The site is adapted for mobile devices</p>
+                            <p class="projectTools">HTML, CSS, JavaScript, PHP, MySQL</p>
+                            <div class="projectLinkWrapper d-flex align-items-baseline">
+                                <a href="https://skrbearing.by/index.php" class="projectLinks">See Project</a>
+                                <a href="https://github.com/IvanVojnic/SKRBEARING" class="projectLinks">View the code of project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="experience d-flex flex-column col-10 justify-content-center align-items-center" id="experienceId">
+                <h2 class="tittleCard">My Experience</h2>
+                <p class="expInfo d-flex col-12">
+                    In my first year at university, I have learned C++, OOP using this language, and also engaged in graphic development while studying WinAPI. In the middle of the first year, I decided to study a new technology for myself and chose the front-end direction. Using resources such as javascript.ru , w3School and video tutorials independently studied HTML, CSS and JavaScript. At the beginning of my second year at university, I started working on my first commercial project. Using learned technologies, I began the development of an online store, additionally studied PHP and MySQL for backend development, completed the work, successfully handing over the project to the customer. In my second year at university, I studied Java, algorithms and data structures using Java, moreover, operating systems using C++. In the middle of the second year, I set out to become a qualified frontend developer and create my own application. To do this, I started studying the React Native framework, which allows me to write cross-platform applications.
+                </p>
+                <h4>My Goals</h4>
+                <p class="expInfo d-flex col-12">
+                    I chose the frontend direction because of the huge functionality and variability of development. This means that there is an opportunity to develop a huge number of different projects in different areas. With high motivation and diligence, I believe that I can achieve my goals.
+                </p>
+            </section>
+            <section class="education d-flex flex-column col-10 justify-content-center align-items-center" id="educationId">
+                <h2 class="tittleCard">Education & courses</h2>
+                <div class="eduInfoWrapper col-12">
+                    <p class="eduItemWrapper d-flex flex-row col-12"><span class="d-flex col-10">Faculty of applied mathematics & computer science in Belarusian State University</span><span class="d-flex col-2">2020-2022</span></p>
+                    <p class="eduItemWrapper d-flex flex-row col-12"><span class="d-flex col-10">Rolling Scopes School Stage 0</span><span class="d-flex col-2">2022</span></p>
+                    <p class="eduItemWrapper d-flex flex-row col-12"><span class="d-flex col-10">EPAM trainings</span><span class="d-flex col-2">2022</span></p>
+                </div>
+                <h4>Languages</h4>
+                <div class="d-flex col-12" id="languagesId">
+                    <ul class="languagesList d-flex flex-column col-lg-6 col-md-10 col-12">
+                        <li class="d-flex flex-row col-lg-6 col-12 justify-content-between align-items-center"><span class="langItem d-flex col-lg-2 col-6"><span class="arrow">></span>Belarusian</span><span class="d-flex col-lg-2 col-6">Native</span></li>
+                        <li class="d-flex flex-row col-lg-6 col-12 justify-content-between align-items-center"><span class="langItem d-flex col-lg-2 col-6"><span class="arrow">></span>English</span><span class="d-flex col-lg-2 col-6">B1</span></li>
+                        <li class="d-flex flex-row col-lg-6 col-12 justify-content-between align-items-center"><span class="langItem d-flex col-lg-2 col-6"><span class="arrow">></span>Russian</span><span class="d-flex col-lg-2 col-6">Fluent</span></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="codeExample d-flex flex-column col-10 justify-content-center align-items-center">
+                <h2 class="tittleCard">My Code</h2>
+                <div class="codeWrapper">
+                    <pre>
+                        <code class="myCode">
+<span class="func">function</span> <span class="funcName">binarySearch</span>(nums, tmpTarget){
+    <span class="let">let</span> begInd = 0;
+    <span class="let">let</span> endInd = nums.length-1;
+    <span class="let">let</span> middleInd = <span class="funcName">Math.floor</span>((begInd+endInd)/2);
+    <span class="while">while</span>(begInd<=endInd){
+        <span class="if">if</span>(nums[middleInd].val!==tmpTarget){
+            <span class="if">if</span>(tmpTarget < nums[middleInd].val){
+                endInd = middleInd-1;
+                middleInd = <span class="funcName">Math.floor</span>((begInd+endInd)/2);
+            } <span class="if">else if</span>(tmpTarget > nums[middleInd].val){
+                begInd = middleInd+1;
+                middleInd = <span class="funcName">Math.floor</span>((begInd+endInd)/2);
+            }
+        } <span class="if">else if</span>(nums[middleInd].val === tmpTarget){
+            <span class="return">return</span> nums[middleInd].key;
+        }
+    }
+    <span class="return">return -1;</span>
+}
+                        </code>
+                    </pre>
+                </div>
+            </section>
+
+            <section class="contacts d-flex col-12 justify-content-center align-items-center flex-column" id="contactsId">
+                <h2 class="tittleCard">Contacts</h2>
+                <article class="d-flex col-10 align-items-center justify-content-center">
+                    <ul class="d-flex col-10 contactsList flex-wrap">
+                        <li class="d-flex col-lg-3 col-md-6 flex-column justify-content-center align-items-center"><img src="assets/icons/icons8-почта.svg" alt="email"><span>ivojnic44@gmail.com</span></li>
+                        <li class="d-flex col-lg-3 col-md-6 flex-column justify-content-center align-items-center"><img src="assets/icons/icons8-телефон.svg" alt="telephone"><span>+375 29 373-03-83</span></li>
+                        <li class="d-flex col-lg-3 col-md-6 flex-column justify-content-center align-items-center"><a href="https://github.com/IvanVojnic" class="d-flex flex-column align-items-center justify-content-center"><img src="assets/icons/icons8-github.svg" alt="git"><span>Git</span></a></li>
+                        <li class="d-flex col-lg-3 col-md-6 flex-column justify-content-center align-items-center"><a href="https://www.instagram.com/voinich_/" class="d-flex flex-column align-items-center justify-content-center"><img src="assets/icons/icons8-instagram.svg" alt="instagram"><span>Instagram</span></a></li>
+                    </ul>
+                </article>
+            </section>
+        </main>
+        <footer class="d-flex col-12 myFooter align-items-center justify-content-center">
+            <ul class="d-flex flex-row col-10 justify-content-center align-content-around footerList">
+                <li class="d-flex col-4">2022 by Ivan Voynich</li>
+                <li class="d-flex col-4"><a href="https://github.com/IvanVojnic">GitHub</a></li>
+                <li class="d-flex col-4"><a href="https://rs.school/js/"><img src="assets/img/rs_school_js.svg"></a></li>
+            </ul>
+        </footer>
+    <script src="ind.js"></script>
+    </body>
+</html>
